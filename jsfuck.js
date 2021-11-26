@@ -60,7 +60,7 @@
     'I':   '(Infinity+"")[0]',
     'J':   null,
     'K':   null,
-    'L':   '(URL+"")[11]',
+    'L':   'Object.keys(window).filter(v => v.includes("screen")).sort()[1][6]',
     'M':   '(true+Function("return Date")()())[30]',
     'N':   '(NaN+"")[0]',
     'O':   '(+[]+Object)[10]',
