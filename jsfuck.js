@@ -60,7 +60,7 @@
     'I':   '(Infinity+"")[0]',
     'J':   null,
     'K':   null,
-    'L':   null,
+    'L':   '(URL+"")[11]',
     'M':   '(true+Function("return Date")()())[30]',
     'N':   '(NaN+"")[0]',
     'O':   '(+[]+Object)[10]',
